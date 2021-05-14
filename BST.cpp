@@ -9,9 +9,9 @@ public:
 		nodeB<Key>* left;
 		nodeB<Key>* right;
 
-		nodeB(Key Clave)
+		nodeB(Key Search_Key)
 		{
-			key = Clave;
+			key = Search_Key;
 			left = right = nullptr;
 		}
 };
